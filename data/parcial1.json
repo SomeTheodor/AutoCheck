@@ -1,0 +1,48 @@
+[
+  {
+    "question": "¿Qué representa este diagrama?",
+    "image": "img/diagrama.jpeg",
+    "options": [
+      "Un árbol binario",
+      "Una lista enlazada",
+      "Una pila",
+      "Una cola"
+    ],
+    "correctIndex": 0,
+    "feedback": "El diagrama corresponde a un árbol binario."
+  },
+  {
+    "question": "¿Qué es una variable?",
+    "image": "img/diagrama2.png",
+    "options": [
+      "Un valor que no cambia",
+      "Un espacio de memoria que almacena datos",
+      "Una función",
+      "Un tipo de dato"
+    ],
+    "correctIndex": 1,
+    "feedback": "Una variable es un espacio de memoria donde se guarda un valor que puede cambiar."
+  },
+  {
+    "question": "¿Cuál es la estructura correcta de un if en JavaScript?",
+    "options": [
+      "if x > 5 then",
+      "if (x > 5) { }",
+      "if x > 5 {}",
+      "if (x > 5) then { }"
+    ],
+    "correctIndex": 1,
+    "feedback": "En JavaScript, la condición va entre paréntesis y el bloque entre llaves."
+  },
+  {
+    "question": "¿Qué significa JSON?",
+    "options": [
+      "Java Syntax Object Notation",
+      "JavaScript Object Notation",
+      "Java Source Object Name",
+      "Java Standard Output Network"
+    ],
+    "correctIndex": 1,
+    "feedback": "JSON significa JavaScript Object Notation y se usa para intercambio de datos."
+  }
+]

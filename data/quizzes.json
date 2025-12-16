@@ -1,0 +1,17 @@
+[
+  {
+    "id": "parcial1",
+    "title": "Parcial 1",
+    "description": "Conceptos básicos de programación"
+  },
+  {
+    "id": "parcial2",
+    "title": "Parcial 2",
+    "description": "Listas, pilas, colas y árboles"
+  },
+  {
+    "id": "parcial3",
+    "title": "Parcial 3",
+    "description": "Sintaxis y fundamentos del lenguaje"
+  }
+]
