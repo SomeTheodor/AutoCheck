@@ -1,48 +1,71 @@
 [
   {
-    "question": "¿Qué representa este diagrama?",
-    "image": "img/diagrama.jpeg",
+    "question": "Dado los sig codigos, seleccione la opcion correcta",
+    "image": "img/diagrama.png",
     "options": [
-      "Un árbol binario",
-      "Una lista enlazada",
-      "Una pila",
-      "Una cola"
+      "El A es correcto porque usa type para definir el dato",
+      "El B es correcto porque se puede declarar una variable de esa forma",
+      "Ambas son correctas",
+      "Ningua de las anteriores"
     ],
     "correctIndex": 0,
-    "feedback": "El diagrama corresponde a un árbol binario."
+    "feedback": "El A es correcto porque primero usamos type para crear el tipo array y luego usarlo para definir la variable"
   },
   {
-    "question": "¿Qué es una variable?",
+    "question": "Cuanta memoria dinamica, estatica y tiempo de ejecucion tiene?",
     "image": "img/diagrama2.png",
     "options": [
-      "Un valor que no cambia",
-      "Un espacio de memoria que almacena datos",
-      "Una función",
-      "Un tipo de dato"
+      "M.E: ,M.D: ,T.E: ",
+      "M.E: ,M.D: ,T.E: ",
+      "M.E: ,M.D: ,T.E: ",
+      "Ningua de las anteriores"
     ],
     "correctIndex": 1,
-    "feedback": "Una variable es un espacio de memoria donde se guarda un valor que puede cambiar."
+    "feedback": "---"
   },
   {
-    "question": "¿Cuál es la estructura correcta de un if en JavaScript?",
+    "question": "Un programa con modulos es mas eficiente que uno sin modulos?",
     "options": [
-      "if x > 5 then",
-      "if (x > 5) { }",
-      "if x > 5 {}",
-      "if (x > 5) then { }"
+      "Si",
+      "No",
+      "Ambas son correctas",
+      "Ningua de las anteriores"
     ],
     "correctIndex": 1,
-    "feedback": "En JavaScript, la condición va entre paréntesis y el bloque entre llaves."
+    "feedback": "Los modulos ayudan a organizar el codigo, pero no afectan la eficiencia del programa."
   },
   {
-    "question": "¿Qué significa JSON?",
+    "question": "El programa es valido?",
+    "image": "img/diagrama3.png",
     "options": [
-      "Java Syntax Object Notation",
-      "JavaScript Object Notation",
-      "Java Source Object Name",
-      "Java Standard Output Network"
+      "No",
+      "La A y C son correctas",
+      "No",
+      "Si"
     ],
-    "correctIndex": 1,
-    "feedback": "JSON significa JavaScript Object Notation y se usa para intercambio de datos."
+    "correctIndex": 3,
+    "feedback": "El cod funciona ya que la funcion auxiliar devuelve un valor que puede ser usado en el procedure"
+  },
+  {
+    "question": "Un programa con repeat until es se puede reescribir con while?",
+    "options": [
+      "Si",
+      "No",
+      "Ambas son correctas",
+      "Ningua de las anteriores"
+    ],
+    "correctIndex": 0,
+    "feedback": "---"
+  },
+  {
+    "question": "La comunicacion entre el programa y los modulos solo se puede con parametros",
+    "options": [
+      "Si",
+      "Ambas son correctas",
+      "No",
+      "Ningua de las anteriores"
+    ],
+    "correctIndex": 2,
+    "feedback": "Ademas de los parametros, se puede usar variables globales."
   }
 ]
