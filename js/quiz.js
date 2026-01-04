@@ -1,104 +1,104 @@
+import { renderQuestion, resetUI, initRender } from "./render.js";
+import { getAnswerData } from "./handlers.js";
+
 const params = new URLSearchParams(window.location.search);
-const quizId = params.get("quiz");
+export const quizId = params.get("quiz");
 
-let questions = [];
-let currentQuestion = 0;
-let score = 0;
+export let questions = [];
+export let currentQuestion = 0;
+export let score = 0;
+export let answers = [];
+export let answered = false;
 
-if (!quizId) {
-  alert("No se seleccionó ningún quiz");
+export function setAnswered(value) {
+  answered = value;
+}
+export function addScore() {
+  score++;
 }
 
-document.getElementById("quizTitle").textContent =
-  "Quiz: " + quizId.toUpperCase();
+export function addAnswer(answer) {
+  answers.push(answer);
+}
 
+if (!quizId) alert("No se seleccionó ningún quiz");
+
+// Helper
+export const $ = id => document.getElementById(id);
+
+// Elementos
+export const questionEl = $("question");
+export const optionsEl = $("options");
+export const feedbackEl = $("feedback");
+export const nextBtn = $("nextBtn");
+export const imageEl = $("questionImage");
+export const toggleImgBtn = $("toggleImg");
+export const progressEl = $("progress");
+export const quizTitleEl = $("quizTitle");
+
+quizTitleEl.textContent = "Quiz: " + quizId.toUpperCase();
+
+// Cargar preguntas
 fetch(`data/${quizId}.json`)
   .then(res => res.json())
   .then(data => {
     questions = data;
+    initRender();      
     loadQuestion();
-  })
-  .catch(err => {
-    console.error("Error cargando el quiz:", err);
   });
 
 
-    const questionEl = document.getElementById("question");
-    const optionsEl = document.getElementById("options");
-    const feedbackEl = document.getElementById("feedback");
-    const nextBtn = document.getElementById("nextBtn");
-    const imageEl = document.getElementById("questionImage");
-    const toggleImgBtn = document.getElementById("toggleImg");
+export function loadQuestion() {
+  answered = false;
+  resetUI();
 
-    function loadQuestion() {
-      const q = questions[currentQuestion];
-      questionEl.textContent = q.question;
+  const q = questions[currentQuestion];
+  questionEl.textContent = q.question;
 
-      feedbackEl.textContent = "";
-      nextBtn.disabled = true;
+  progressEl.textContent =
+    `Pregunta ${currentQuestion + 1} de ${questions.length}`;
 
-      optionsEl.innerHTML = "";
+  renderQuestion(q);
+}
 
-      if (q.image) {
-        imageEl.src = q.image;
-        imageEl.style.display = "none";
-        toggleImgBtn.style.display = "block";
-        toggleImgBtn.textContent = "Ver imagen";
-      } else {
-        imageEl.style.display = "none";
-        toggleImgBtn.style.display = "none";
-      }
+nextBtn.onclick = () => {
+  currentQuestion++;
+  if (currentQuestion < questions.length) {
+    loadQuestion();
+  } else {
+    finishQuiz();
+  }
+};
 
-      q.options.forEach((option, index) => {
-        const btn = document.createElement("div");
-        btn.className = "option";
-        btn.textContent = option;
-        btn.onclick = () => selectOption(index);
-        optionsEl.appendChild(btn);
-      });
-    }
+function finishQuiz() {
+  questionEl.textContent = "¡Quiz finalizado!";
+  optionsEl.innerHTML = "";
+  progressEl.textContent = "";
+  nextBtn.style.display = "none";
 
-    toggleImgBtn.onclick = () => {
-      if (imageEl.style.display === "none") {
-        imageEl.style.display = "block";
-        toggleImgBtn.textContent = "Ocultar imagen";
-      } else {
-        imageEl.style.display = "none";
-        toggleImgBtn.textContent = "Ver imagen";
-      }
-    };
+  const percentage = Math.round((score / questions.length) * 100);
 
-    function selectOption(index) {
-      const q = questions[currentQuestion];
-      const options = document.querySelectorAll(".option");
+  localStorage.setItem(
+    `quiz_${quizId}_lastScore`,
+    JSON.stringify({
+      score,
+      total: questions.length,
+      percentage,
+      date: new Date().toLocaleString()
+    })
+  );
 
-      if (index === q.correctIndex) score++;
+  let html = `
+    <p>
+      Puntaje: <strong>${score}</strong> / ${questions.length}<br>
+      Resultado: <strong>${percentage}%</strong>
+    </p>
+    <h4>Revisión</h4>
+  `;
 
-      options.forEach((btn, i) => {
-        btn.onclick = null;
-        if (i === q.correctIndex) btn.classList.add("correct");
-        else if (i === index) btn.classList.add("incorrect");
-      });
+  answers.forEach((a, i) => {
+    html += getAnswerData(a, i);
+  });
 
-      feedbackEl.textContent = q.feedback;
-      nextBtn.disabled = false;
-    }
-
-    nextBtn.onclick = () => {
-      currentQuestion++;
-      if (currentQuestion < questions.length) {
-        loadQuestion();
-      } else {
-        questionEl.textContent = "¡Quiz finalizado!";
-        optionsEl.innerHTML = "";
-        imageEl.style.display = "none";
-        toggleImgBtn.style.display = "none";
-
-        const percentage = Math.round((score / questions.length) * 100);
-        feedbackEl.innerHTML =
-          `Puntaje: <strong>${score}</strong> / ${questions.length}<br>
-           Resultado: <strong>${percentage}%</strong>`;
-
-        nextBtn.style.display = "none";
-      }
-    };
+  feedbackEl.innerHTML = html;
+}
