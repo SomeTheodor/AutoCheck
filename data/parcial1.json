@@ -1,71 +1,65 @@
 [
   {
-    "question": "Dado los sig codigos, seleccione la opcion correcta",
+    "type": "multiple",
+    "question": "Dado los siguientes códigos, seleccione la opción correcta",
     "image": "img/diagrama.png",
     "options": [
       "El A es correcto porque usa type para definir el dato",
       "El B es correcto porque se puede declarar una variable de esa forma",
       "Ambas son correctas",
-      "Ningua de las anteriores"
+      "Ninguna de las anteriores"
     ],
     "correctIndex": 0,
-    "feedback": "El A es correcto porque primero usamos type para crear el tipo array y luego usarlo para definir la variable"
+    "feedback": "El A es correcto porque primero usamos type para crear el tipo array y luego usarlo para definir la variable."
   },
   {
-    "question": "Cuanta memoria dinamica, estatica y tiempo de ejecucion tiene?",
-    "image": "img/diagrama2.png",
-    "options": [
-      "M.E: ,M.D: ,T.E: ",
-      "M.E: ,M.D: ,T.E: ",
-      "M.E: ,M.D: ,T.E: ",
-      "Ningua de las anteriores"
-    ],
-    "correctIndex": 1,
-    "feedback": "---"
+    "type": "code-fill",
+    "question": "Complete el código correctamente",
+    "template": "Type datos = array[1..100] of _____;",
+    "answer": "integer",
+    "feedback": "En Pascal, los arrays deben indicar el tipo de dato, en este caso integer."
   },
   {
-    "question": "Un programa con modulos es mas eficiente que uno sin modulos?",
+    "type": "multiple",
+    "question": "¿Un programa con módulos es más eficiente que uno sin módulos?",
     "options": [
-      "Si",
+      "Sí",
       "No",
       "Ambas son correctas",
-      "Ningua de las anteriores"
+      "Ninguna de las anteriores"
     ],
     "correctIndex": 1,
-    "feedback": "Los modulos ayudan a organizar el codigo, pero no afectan la eficiencia del programa."
+    "feedback": "Los módulos ayudan a organizar el código, pero no mejoran la eficiencia en tiempo de ejecución."
   },
   {
-    "question": "El programa es valido?",
-    "image": "img/diagrama3.png",
-    "options": [
-      "No",
-      "La A y C son correctas",
-      "No",
-      "Si"
-    ],
-    "correctIndex": 3,
-    "feedback": "El cod funciona ya que la funcion auxiliar devuelve un valor que puede ser usado en el procedure"
+    "type": "code-fill",
+    "question": "Complete la estructura del ciclo",
+    "template": "repeat\n  writeln('Hola');\nuntil _____;",
+    "answer": "condicion",
+    "feedback": "El ciclo repeat until finaliza cuando la condición es verdadera."
   },
   {
-    "question": "Un programa con repeat until es se puede reescribir con while?",
+    "type": "multiple",
+    "question": "¿Un programa con repeat until se puede reescribir usando while?",
     "options": [
-      "Si",
+      "Sí",
       "No",
       "Ambas son correctas",
-      "Ningua de las anteriores"
+      "Ninguna de las anteriores"
     ],
     "correctIndex": 0,
-    "feedback": "---"
+    "feedback": "Todo ciclo repeat until puede reescribirse usando while, teniendo en cuenta la condición."
   },
   {
-    "question": "La comunicacion entre el programa y los modulos solo se puede con parametros",
+    "type": "multiple",
+    "question": "La comunicación entre el programa y los módulos solo se puede realizar con parámetros",
     "options": [
-      "Si",
+      "Sí",
       "Ambas son correctas",
       "No",
-      "Ningua de las anteriores"
+      "Ninguna de las anteriores"
     ],
     "correctIndex": 2,
-    "feedback": "Ademas de los parametros, se puede usar variables globales."
+    "feedback": "Además de los parámetros, se pueden usar variables globales."
   }
 ]
