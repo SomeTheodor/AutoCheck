@@ -26,7 +26,7 @@
   {
     "type": "code-fill",
     "question": "Complete the sentence using Present Simple:",
-    "template": "He _____ coffee every morning.",
+    "template": "He _____ (drink) coffee every morning.",
     "answer": "drinks",
     "feedback": "In present simple, 'he' requires the verb with -s."
   },
@@ -60,5 +60,43 @@
     ],
     "correctIndex": 1,
     "feedback": "Adverbs of frequency are commonly used with present simple."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Continuous:",
+    "template": "I _____ working at the moment.",
+    "answer": "am",
+    "feedback": "With 'I', the present continuous uses 'am'."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence expresses a temporary action?",
+    "options": [
+      "She lives in Madrid.",
+      "She works as a teacher.",
+      "She is staying with a friend this week.",
+      "She likes coffee."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present continuous is often used for temporary situations."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Simple:",
+    "template": "We _____ (have) English classes on Mondays.",
+    "answer": "have",
+    "feedback": "Present simple is used for routines and schedules."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "He is usually going to work by bus.",
+      "He usually go to work by bus.",
+      "He usually goes to work by bus.",
+      "He goes usually to work by bus."
+    ],
+    "correctIndex": 2,
+    "feedback": "Adverbs of frequency are placed before the main verb in present simple."
   }
 ]

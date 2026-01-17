@@ -1,0 +1,107 @@
+[
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence (Zero Conditional):",
+    "options": [
+      "If you will heat ice, it melts.",
+      "If you heat ice, it melts.",
+      "If you heated ice, it melts.",
+      "If you heat ice, it will melt."
+    ],
+    "correctIndex": 1,
+    "feedback": "Zero conditional is used for general truths and uses present simple in both clauses."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is a First Conditional?",
+    "options": [
+      "If I were rich, I would buy a house.",
+      "If it rains, the match is canceled.",
+      "If it rains, we will stay at home.",
+      "If it rained, we stayed at home."
+    ],
+    "correctIndex": 2,
+    "feedback": "First conditional uses present simple + will for real future situations."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using First Conditional:",
+    "template": "If you _____ study, you will pass the exam.",
+    "answer": "don't",
+    "feedback": "First conditional uses present simple in the if-clause."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option (Second Conditional):",
+    "options": [
+      "If I have more time, I will travel.",
+      "If I had more time, I would travel.",
+      "If I will have more time, I travel.",
+      "If I have more time, I travel."
+    ],
+    "correctIndex": 1,
+    "feedback": "Second conditional is used for unreal or hypothetical situations."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Second Conditional:",
+    "template": "If she _____ taller, she would play basketball.",
+    "answer": "were",
+    "feedback": "'Were' is commonly used in second conditional for all subjects."
+  },
+  {
+    "type": "multiple",
+    "question": "When do we use the Zero Conditional?",
+    "options": [
+      "For unreal situations in the present",
+      "For general truths and scientific facts",
+      "For future possibilities",
+      "For regrets about the past"
+    ],
+    "correctIndex": 1,
+    "feedback": "Zero conditional describes facts that are always true."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "If I see him, I would tell him.",
+      "If I will see him, I tell him.",
+      "If I see him, I will tell him.",
+      "If I saw him, I will tell him."
+    ],
+    "correctIndex": 2,
+    "feedback": "First conditional uses present simple + will."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Zero Conditional:",
+    "template": "If people _____ too much sugar, they get sick.",
+    "answer": "eat",
+    "feedback": "Zero conditional uses present simple in both clauses."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "If it rains, water flows into the basement.",
+      "If I were you, I would apologize.",
+      "If she will call me, I will answer.",
+      "If you heat water, it boils."
+    ],
+    "correctIndex": 2,
+    "feedback": "We do not use 'will' in the if-clause."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option:",
+    "options": [
+      "If I know the answer, I would tell you.",
+      "If I knew the answer, I will tell you.",
+      "If I knew the answer, I would tell you.",
+      "If I will know the answer, I tell you."
+    ],
+    "correctIndex": 2,
+    "feedback": "Second conditional uses past simple + would."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I will call you when I will arrive.",
+      "I am calling you when I arrive.",
+      "I will call you when I arrive.",
+      "I call you when I will arrive."
+    ],
+    "correctIndex": 2,
+    "feedback": "In time clauses with 'when', we use present simple, not 'will'."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence expresses a spontaneous decision?",
+    "options": [
+      "I am meeting John tomorrow.",
+      "I am going to meet John tomorrow.",
+      "I will meet John tomorrow.",
+      "I meet John tomorrow."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Will' is often used for decisions made at the moment of speaking."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using 'going to':",
+    "template": "Look at those clouds! It _____ rain.",
+    "answer": "is going to",
+    "feedback": "'Going to' is used for predictions based on evidence."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Continuous:",
+    "template": "We _____ having dinner with our parents tonight.",
+    "answer": "are",
+    "feedback": "Present continuous is used for fixed future arrangements."
+  },
+  {
+    "type": "multiple",
+    "question": "When do we use 'going to'?",
+    "options": [
+      "For spontaneous decisions",
+      "For habits and routines",
+      "For plans decided before the moment of speaking",
+      "For actions happening now"
+    ],
+    "correctIndex": 2,
+    "feedback": "'Going to' is used for prior plans and intentions."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option:",
+    "options": [
+      "I will going to study tonight.",
+      "I am going to study tonight.",
+      "I going to study tonight.",
+      "I study going to tonight."
+    ],
+    "correctIndex": 1,
+    "feedback": "'Going to' requires the verb 'to be' before it."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using 'will':",
+    "template": "Don't worry, I _____ help you with your homework.",
+    "answer": "will",
+    "feedback": "'Will' is commonly used for promises and offers."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a fixed arrangement?",
+    "options": [
+      "I will travel to Spain next summer.",
+      "I am going to travel to Spain next summer.",
+      "I am traveling to Spain next summer.",
+      "I travel to Spain next summer."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present continuous is used for fixed future arrangements."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using the correct future form:",
+    "template": "She _____ see the doctor tomorrow at 10 a.m.",
+    "answer": "is going to",
+    "feedback": "We use 'going to' for planned future actions."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I am going to help you right now!",
+      "I will help you right now!",
+      "I am helping you right now!",
+      "I help you right now!"
+    ],
+    "correctIndex": 1,
+    "feedback": "'Will' is used for spontaneous offers made at the moment of speaking."
+  }
+]

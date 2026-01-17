@@ -1,0 +1,102 @@
+[
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I have seen that movie yesterday.",
+      "I saw that movie already.",
+      "I have already seen that movie.",
+      "I already see that movie."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect is used with 'already' and without specific past time expressions."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence focuses on the duration of an action?",
+    "options": [
+      "She has read the book.",
+      "She read the book.",
+      "She has been reading the book.",
+      "She was reading the book."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect continuous emphasizes duration."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Perfect:",
+    "template": "They _____ finished their homework.",
+    "answer": "have",
+    "feedback": "Present perfect uses 'have / has' + past participle."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Perfect Continuous:",
+    "template": "He _____ been working here for five years.",
+    "answer": "has",
+    "feedback": "With 'he', present perfect continuous uses 'has been'."
+  },
+  {
+    "type": "multiple",
+    "question": "When do we use the Present Perfect?",
+    "options": [
+      "For actions happening right now",
+      "For completed actions with a result in the present",
+      "For actions at a specific time in the past",
+      "For future plans"
+    ],
+    "correctIndex": 1,
+    "feedback": "Present perfect connects past actions with the present."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option:",
+    "options": [
+      "I have been knowing her for years.",
+      "I know her for years.",
+      "I have known her for years.",
+      "I am knowing her for years."
+    ],
+    "correctIndex": 2,
+    "feedback": "Stative verbs are not usually used in continuous forms."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using 'for' or 'since':",
+    "template": "We have lived here _____ 2018.",
+    "answer": "since",
+    "feedback": "'Since' is used with a specific point in time."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "She has just arrived.",
+      "They have already eaten.",
+      "I have been finished my work.",
+      "We have never been to Paris."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect continuous does not use the past participle."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Perfect Continuous:",
+    "template": "It _____ been raining all day.",
+    "answer": "has",
+    "feedback": "With 'it', present perfect continuous uses 'has been'."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I have worked here since two years.",
+      "I work here since two years.",
+      "I have been working here for two years.",
+      "I am working here since two years."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect continuous is often used with 'for' to emphasize duration."
+  }
+]

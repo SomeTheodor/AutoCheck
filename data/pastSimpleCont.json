@@ -1,0 +1,102 @@
+[
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I was watching TV when she arrived.",
+      "I watched TV when she was arriving.",
+      "I am watching TV when she arrived.",
+      "I watch TV when she arrived."
+    ],
+    "correctIndex": 0,
+    "feedback": "Past continuous is used for the action in progress when another action happened."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is in the Past Simple tense?",
+    "options": [
+      "I was studying all night.",
+      "I am studying now.",
+      "I studied English yesterday.",
+      "I had studied English."
+    ],
+    "correctIndex": 2,
+    "feedback": "Past simple is used for completed actions in the past."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Past Simple:",
+    "template": "She _____ (open) the door and left the house.",
+    "answer": "opened",
+    "feedback": "Past simple is used for completed actions in the past."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Past Continuous:",
+    "template": "They _____ playing football when it started to rain.",
+    "answer": "were",
+    "feedback": "Past continuous uses 'was / were' + verb ending in -ing."
+  },
+  {
+    "type": "multiple",
+    "question": "When do we use the Past Continuous?",
+    "options": [
+      "For actions that happened once in the past",
+      "For actions in progress at a specific moment in the past",
+      "For future plans",
+      "For general facts"
+    ],
+    "correctIndex": 1,
+    "feedback": "Past continuous describes actions in progress in the past."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option:",
+    "options": [
+      "While I cooked, the phone rang.",
+      "While I was cooking, the phone rang.",
+      "While I cook, the phone rang.",
+      "While I cooked, the phone was ringing."
+    ],
+    "correctIndex": 1,
+    "feedback": "We often use past continuous with 'while' and past simple with 'when'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Past Simple:",
+    "template": "We _____ (watch) the movie last night.",
+    "answer": "watched",
+    "feedback": "Past simple is used with finished time expressions like 'last night'."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes two actions happening at the same time in the past?",
+    "options": [
+      "I was reading while she was listening to music.",
+      "I read while she listened to music.",
+      "I was reading when she listened to music.",
+      "I read when she was listening to music."
+    ],
+    "correctIndex": 0,
+    "feedback": "Two actions in progress at the same time use past continuous."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Past Continuous:",
+    "template": "He _____ sleeping when the alarm went off.",
+    "answer": "was",
+    "feedback": "With 'he', past continuous uses 'was'."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I was walking home when I saw an accident.",
+      "I walked home when I was seeing an accident.",
+      "I was walk home when I saw an accident.",
+      "I walked home when I saw an accident happening."
+    ],
+    "correctIndex": 0,
+    "feedback": "Past continuous is used for the background action, past simple for the event."
+  }
+]

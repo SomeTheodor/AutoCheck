@@ -1,17 +1,32 @@
 [
   {
     "id": "presentSimpleCont",
-    "title": "Present Simple and Continuous",
-    "description": "Quizzes on Present Simple and Present Continuous tenses"
+    "title": "Present Simple & Present Continuous",
+    "description": "Practice the use of Present Simple and Present Continuous tenses."
   },
   {
-    "id": "parcial2",
-    "title": "Parcial 2",
-    "description": "Listas, pilas, colas y árboles"
+    "id": "pastSimpleCont",
+    "title": "Past Simple & Past Continuous",
+    "description": "Exercises focused on Past Simple and Past Continuous forms."
   },
   {
-    "id": "parcial3",
-    "title": "Parcial 3",
-    "description": "Sintaxis y fundamentos del lenguaje"
+    "id": "presentPerfectSimpleCont",
+    "title": "Present Perfect & Present Perfect Continuous",
+    "description": "Quizzes on present perfect forms and their continuous use."
+  },
+  {
+    "id": "future",
+    "title": "Future Forms",
+    "description": "Practice will, going to and present continuous for future meanings."
+  },
+  {
+    "id": "modalVerbs",
+    "title": "Modal Verbs",
+    "description": "Exercises on modal verbs such as can, must, should and might."
+  },
+  {
+    "id": "conditionals",
+    "title": "Conditionals",
+    "description": "Zero, First and Second Conditional structures and usage."
   }
 ]

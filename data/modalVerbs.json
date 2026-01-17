@@ -1,0 +1,102 @@
+[
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "She can to swim very well.",
+      "She can swims very well.",
+      "She can swim very well.",
+      "She cans swim very well."
+    ],
+    "correctIndex": 2,
+    "feedback": "Modal verbs are followed by the base form of the verb."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence expresses obligation?",
+    "options": [
+      "You should see a doctor.",
+      "You must wear a helmet.",
+      "You might be late.",
+      "You can leave early."
+    ],
+    "correctIndex": 1,
+    "feedback": "'Must' is used to express strong obligation."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using ADVICE:",
+    "template": "You _____ study more if you want to pass the exam.",
+    "answer": "should",
+    "feedback": "'Should' is used to give advice."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option:",
+    "options": [
+      "I don't must work tomorrow.",
+      "I mustn't work tomorrow.",
+      "I don't have to work tomorrow.",
+      "I shouldn't work tomorrow."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Don't have to' expresses lack of obligation, not prohibition."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using POSIBILITY:",
+    "template": "_____ you help me with this exercise, please?",
+    "answer": "Could",
+    "feedback": "'Could' is more polite than 'can' when asking for help."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence expresses possibility?",
+    "options": [
+      "She must be at home.",
+      "She should be at home.",
+      "She might be at home.",
+      "She has to be at home."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Might' is used to express possibility."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using LOW OBLIGATION:",
+    "template": "I _____ wake up early tomorrow for work.",
+    "answer": "have to",
+    "feedback": "'Have to' is used for external obligations."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "You should to apologize.",
+      "You should apologizing.",
+      "You should apologize.",
+      "You should apologized."
+    ],
+    "correctIndex": 2,
+    "feedback": "Modal verbs are followed by the base form of the verb."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using PROHIBITION:",
+    "template": "You _____ park your car here.",
+    "answer": "mustn't",
+    "feedback": "'Mustn't' expresses prohibition."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence expresses ability in the past?",
+    "options": [
+      "I can swim when I was a child.",
+      "I could swim when I was a child.",
+      "I am able swim when I was a child.",
+      "I was can swim when I was a child."
+    ],
+    "correctIndex": 1,
+    "feedback": "'Could' is used to talk about general abilities in the past."
+  }
+]
