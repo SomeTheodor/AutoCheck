@@ -71,7 +71,6 @@ nextBtn.onclick = () => {
 };
 
 function finishQuiz() {
-  questionEl.textContent = "¡Quiz finalizado!";
   optionsEl.innerHTML = "";
   progressEl.textContent = "";
   nextBtn.style.display = "none";
@@ -89,12 +88,18 @@ function finishQuiz() {
   );
 
   let html = `
-    <p>
-      Puntaje: <strong>${score}</strong> / ${questions.length}<br>
-      Resultado: <strong>${percentage}%</strong>
+  <div class="result-card">
+    <h3>Resultado final</h3>
+    <p class="score">
+      ${score} / ${questions.length}
     </p>
-    <h4>Revisión</h4>
-  `;
+    <p class="percentage">
+      ${percentage}%
+    </p>
+  </div>
+
+  <h4 class="review-title">Revisión</h4>
+`;
 
   answers.forEach((a, i) => {
     html += getAnswerData(a, i);

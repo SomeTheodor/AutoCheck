@@ -11,7 +11,6 @@ fetch("data/quizzes.json")
         <strong>${q.title}</strong>
         <small>${q.description}</small>
       `;
-
       div.onclick = () => {
         window.location.href = `quiz.html?quiz=${q.id}`;
       };

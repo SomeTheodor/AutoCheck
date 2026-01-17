@@ -46,15 +46,26 @@ function renderMultiple(q) {
 }
 
 function renderCodeFill(q) {
-  const pre = document.createElement("pre");
-  pre.textContent = q.template;
+  const sentence = document.createElement("div");
+  sentence.className = "code-fill-sentence";
+
+  const parts = q.template.split("_____");
 
   const input = document.createElement("input");
-  input.placeholder = "Completar código";
+  input.className = "code-fill-input";
+  input.placeholder = "write here";
+
+  sentence.append(
+    document.createTextNode(parts[0]),
+    input,
+    document.createTextNode(parts[1] || "")
+  );
 
   const btn = document.createElement("button");
+  btn.className = "primary-btn";
   btn.textContent = "Responder";
   btn.onclick = () => handleCodeFill(input.value, q);
 
-  optionsEl.append(pre, input, btn);
+  optionsEl.append(sentence, btn);
 }
+

@@ -1,0 +1,64 @@
+[
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "She work in an office.",
+      "She works in an office.",
+      "She is work in an office.",
+      "She working in an office."
+    ],
+    "correctIndex": 1,
+    "feedback": "In present simple, third person singular takes -s or -es."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is in the Present Continuous tense?",
+    "options": [
+      "I play football on weekends.",
+      "I am playing football now.",
+      "I played football yesterday.",
+      "I will play football tomorrow."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present continuous uses 'to be' + verb ending in -ing."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Simple:",
+    "template": "He _____ coffee every morning.",
+    "answer": "drinks",
+    "feedback": "In present simple, 'he' requires the verb with -s."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Present Continuous:",
+    "template": "They _____ studying for the exam right now.",
+    "answer": "are",
+    "feedback": "Present continuous requires the correct form of 'to be'."
+  },
+  {
+    "type": "multiple",
+    "question": "When do we use the Present Simple?",
+    "options": [
+      "For actions happening right now",
+      "For habits and routines",
+      "For actions in the past",
+      "For future plans"
+    ],
+    "correctIndex": 1,
+    "feedback": "Present simple is used for habits, routines and general facts."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option:",
+    "options": [
+      "She usually is watching TV at night.",
+      "She usually watches TV at night.",
+      "She is usually watch TV at night.",
+      "She watching usually TV at night."
+    ],
+    "correctIndex": 1,
+    "feedback": "Adverbs of frequency are commonly used with present simple."
+  }
+]
