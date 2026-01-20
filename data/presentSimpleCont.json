@@ -1,102 +1,138 @@
 [
   {
     "type": "multiple",
-    "question": "Choose the correct sentence:",
+    "question": "Which sentence describes a permanent situation?",
     "options": [
-      "She work in an office.",
+      "She is working in an office this month.",
       "She works in an office.",
       "She is work in an office.",
       "She working in an office."
     ],
     "correctIndex": 1,
-    "feedback": "In present simple, third person singular takes -s or -es."
+    "feedback": "Present simple is used for permanent situations and facts."
   },
   {
     "type": "multiple",
-    "question": "Which sentence is in the Present Continuous tense?",
+    "question": "You call a friend, but they can’t talk. What do they say?",
     "options": [
-      "I play football on weekends.",
-      "I am playing football now.",
-      "I played football yesterday.",
-      "I will play football tomorrow."
+      "I work now.",
+      "I am working.",
+      "I work every day.",
+      "I am work."
     ],
     "correctIndex": 1,
-    "feedback": "Present continuous uses 'to be' + verb ending in -ing."
+    "feedback": "Present continuous is used for actions happening at the moment of speaking."
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using Present Simple:",
-    "template": "He _____ (drink) coffee every morning.",
-    "answer": "drinks",
-    "feedback": "In present simple, 'he' requires the verb with -s."
-  },
-  {
-    "type": "code-fill",
-    "question": "Complete the sentence using Present Continuous:",
-    "template": "They _____ studying for the exam right now.",
-    "answer": "are",
-    "feedback": "Present continuous requires the correct form of 'to be'."
+    "question": "Complete the sentence:",
+    "template": "He usually _____ coffee, but today he _____ tea.",
+    "answer": ["drinks", "is drinking"],
+    "feedback": "Present simple is used for habits; present continuous for temporary actions."
   },
   {
     "type": "multiple",
-    "question": "When do we use the Present Simple?",
+    "question": "Which sentence is correct?",
     "options": [
-      "For actions happening right now",
-      "For habits and routines",
-      "For actions in the past",
-      "For future plans"
+      "I am knowing the answer.",
+      "I know the answer.",
+      "I am know the answer.",
+      "I knowing the answer."
     ],
     "correctIndex": 1,
-    "feedback": "Present simple is used for habits, routines and general facts."
+    "feedback": "Some verbs like 'know' are not usually used in the continuous form."
   },
   {
     "type": "multiple",
-    "question": "Choose the correct option:",
+    "question": "Which sentence talks about a temporary situation?",
     "options": [
-      "She usually is watching TV at night.",
-      "She usually watches TV at night.",
-      "She is usually watch TV at night.",
-      "She watching usually TV at night."
-    ],
-    "correctIndex": 1,
-    "feedback": "Adverbs of frequency are commonly used with present simple."
-  },
-  {
-    "type": "code-fill",
-    "question": "Complete the sentence using Present Continuous:",
-    "template": "I _____ working at the moment.",
-    "answer": "am",
-    "feedback": "With 'I', the present continuous uses 'am'."
-  },
-  {
-    "type": "multiple",
-    "question": "Which sentence expresses a temporary action?",
-    "options": [
-      "She lives in Madrid.",
+      "She lives near the university.",
       "She works as a teacher.",
       "She is staying with a friend this week.",
-      "She likes coffee."
+      "She likes classical music."
     ],
     "correctIndex": 2,
     "feedback": "Present continuous is often used for temporary situations."
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using Present Simple:",
-    "template": "We _____ (have) English classes on Mondays.",
-    "answer": "have",
-    "feedback": "Present simple is used for routines and schedules."
+    "question": "Complete the sentence:",
+    "template": "We usually _____ lunch at home, but this week we _____ out.",
+    "answer": ["have", "are eating"],
+    "feedback": "Present simple shows routines; present continuous shows temporary changes."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "She usually goes to work by bus.",
+      "They are studying for their exams.",
+      "He is working here every day.",
+      "I don’t drink coffee at night."
+    ],
+    "correctIndex": 2,
+    "feedback": "Habits like 'every day' usually use present simple."
   },
   {
     "type": "multiple",
     "question": "Choose the correct sentence:",
     "options": [
-      "He is usually going to work by bus.",
-      "He usually go to work by bus.",
-      "He usually goes to work by bus.",
-      "He goes usually to work by bus."
+      "She often is late for work.",
+      "She is often late for work.",
+      "She often late for work.",
+      "She late often for work."
+    ],
+    "correctIndex": 1,
+    "feedback": "With 'to be', adverbs of frequency come after the verb."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "At the moment, the children _____ outside.",
+    "answer": "are playing",
+    "feedback": "Present continuous is used for actions happening now."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence shows a change from the usual routine?",
+    "options": [
+      "She wakes up at 7 a.m.",
+      "She wakes up early every day.",
+      "She is waking up earlier this week.",
+      "She wakes up earlier on weekdays."
     ],
     "correctIndex": 2,
-    "feedback": "Adverbs of frequency are placed before the main verb in present simple."
+    "feedback": "Present continuous can describe temporary changes."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "He usually _____ from home, but today he _____ to the office.",
+    "answer": ["works", "is going"],
+    "feedback": "Present simple describes routines; present continuous describes temporary actions."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence sounds natural?",
+    "options": [
+      "I am loving this song.",
+      "I love this song.",
+      "I am love this song.",
+      "I love this song now."
+    ],
+    "correctIndex": 1,
+    "feedback": "Some verbs like 'love' are not normally used in the continuous form."
+  },
+  {
+    "type": "multiple",
+    "question": "What is the difference between these two sentences?\n\n“She lives in London.” / “She is living in London.”",
+    "options": [
+      "There is no difference.",
+      "The second suggests a temporary situation.",
+      "The first is in the past.",
+      "The second is incorrect."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present continuous can suggest something temporary."
   }
 ]
