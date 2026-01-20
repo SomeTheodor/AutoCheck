@@ -10,6 +10,16 @@ export let score = 0;
 export let answers = [];
 export let answered = false;
 
+// función para mezclar preguntas
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 export function setAnswered(value) {
   answered = value;
 }
@@ -42,7 +52,15 @@ quizTitleEl.textContent = "Quiz: " + quizId.toUpperCase();
 fetch(`data/${quizId}.json`)
   .then(res => res.json())
   .then(data => {
-    questions = data;
+    const shuffledQuestions = shuffleArray(data);
+    questions = shuffledQuestions.slice(0, 10);
+
+   //RESET TOTAL DEL QUIZ
+    currentQuestion = 0;
+    score = 0;
+    answers = [];
+    answered = false;
+
     initRender();      
     loadQuestion();
   });
@@ -57,18 +75,32 @@ export function loadQuestion() {
 
   progressEl.textContent =
     `Pregunta ${currentQuestion + 1} de ${questions.length}`;
-
   renderQuestion(q);
 }
 
 nextBtn.onclick = () => {
+  const q = questions[currentQuestion];
+
+  // 1. Todavía no respondió
+  if (!answered) {
+    if (q.type === "code-fill") {
+      import("./handlers.js").then(m =>
+        m.handleCodeFill(null, q)
+      );
+    }
+    return;
+  }
+
+  // 2. Ya respondió → avanzar
   currentQuestion++;
+
   if (currentQuestion < questions.length) {
     loadQuestion();
   } else {
     finishQuiz();
   }
 };
+
 
 function finishQuiz() {
   optionsEl.innerHTML = "";

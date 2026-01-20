@@ -32,55 +32,97 @@ export function handleMultiple(index, q) {
 }
 
 
-export function handleCodeFill(value, q) {
-  // 1. Validación: campo vacío
-  if (!value.trim()) {
-    feedbackEl.textContent = "⚠️ Por favor, complete la respuesta.";
-    return;
+export function handleCodeFill(_, q) {
+  const inputs = document.querySelectorAll(".code-fill-input");
+
+  // 1. Campo vacío
+  for (let input of inputs) {
+    if (!input.value.trim()) {
+      feedbackEl.textContent = "⚠️ Completá todos los espacios.";
+      return;
+    }
   }
 
-  // 2. Marcar como respondida
   setAnswered(true);
 
-  const input = document.querySelector(".code-fill-input");
-  const btn = document.querySelector(".primary-btn");
+  let allCorrect = true;
 
-  const ok =
-    value.trim().toLowerCase() === q.answer.toLowerCase();
+  inputs.forEach((input, i) => {
+    const userValue = input.value.trim().toLowerCase();
+    const correctAnswer = Array.isArray(q.answer)
+      ? q.answer[i].toLowerCase()
+      : q.answer.toLowerCase();
 
-  if (ok) addScore();
+    const ok = userValue === correctAnswer;
 
-  // 3. Bloquear interacción
-  if (input) input.disabled = true;
-  if (btn) btn.disabled = true;
-
-  // 4. Feedback visual
-  if (input) {
     input.classList.add(ok ? "correct" : "incorrect");
-  }
+    input.disabled = true;
 
-  // 5. Texto de feedback
-  feedbackEl.textContent = ok
+    if (!ok) allCorrect = false;
+  });
+
+  if (allCorrect) addScore();
+
+  feedbackEl.textContent = allCorrect
     ? "✔️ Correcto. " + q.feedback
-    : `❌ Incorrecto. Respuesta correcta: ${q.answer}. ${q.feedback}`;
+    : `❌ Incorrecto. Respuesta correcta: ${
+        Array.isArray(q.answer) ? q.answer.join(" / ") : q.answer
+      }. ${q.feedback}`;
 
-  // 6. Guardar respuesta
   addAnswer({
     question: q.question,
-    selected: value,
+    selected: [...inputs].map(i => i.value),
     correct: q.answer
   });
 
-  // 7. Habilitar siguiente
   nextBtn.disabled = false;
 }
 
 
 
+
 export function getAnswerData(a, i) {
-  const isCorrect = a.options
-    ? a.selected === a.correct
-    : a.selected?.trim().toLowerCase() === a.correct.toLowerCase();
+  let isCorrect = false;
+
+  // MULTIPLE CHOICE
+  if (a.options) {
+    isCorrect = a.selected === a.correct;
+  }
+
+  // CODE FILL
+  else {
+    // múltiple blanks
+    if (Array.isArray(a.correct)) {
+      isCorrect =
+        Array.isArray(a.selected) &&
+        a.selected.length === a.correct.length &&
+        a.selected.every(
+          (val, idx) =>
+            val.trim().toLowerCase() ===
+            a.correct[idx].trim().toLowerCase()
+        );
+    }
+    // un solo blank
+    else {
+      isCorrect =
+        typeof a.selected === "string" &&
+        a.selected.trim().toLowerCase() ===
+          a.correct.trim().toLowerCase();
+    }
+  }
+
+  // Mostrar respuestas
+  const userAnswer = Array.isArray(a.selected)
+    ? a.selected.join(" / ")
+    : a.options
+      ? a.options[a.selected]
+      : a.selected || "—";
+
+  const correctAnswer = Array.isArray(a.correct)
+    ? a.correct.join(" / ")
+    : a.options
+      ? a.options[a.correct]
+      : a.correct;
 
   return `
     <div class="review-item ${isCorrect ? "ok" : "error"}">
@@ -92,14 +134,15 @@ export function getAnswerData(a, i) {
       <div class="review-body">
         <p>
           Tu respuesta:
-          <strong>${a.options ? a.options[a.selected] || "—" : a.selected || "—"}</strong>
+          <strong>${userAnswer}</strong>
         </p>
         <p>
           Correcta:
-          <strong>${a.options ? a.options[a.correct] : a.correct}</strong>
+          <strong>${correctAnswer}</strong>
         </p>
       </div>
     </div>
   `;
 }
+
 

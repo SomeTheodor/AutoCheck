@@ -19,10 +19,12 @@ export function initRender() {
 export function resetUI() {
   feedbackEl.textContent = "";
   nextBtn.disabled = true;
+  nextBtn.textContent = "Siguiente";
   optionsEl.innerHTML = "";
   imageEl.style.display = "none";
   toggleImgBtn.style.display = "none";
 }
+
 
 export function renderQuestion(q) {
   if (q.image) {
@@ -31,9 +33,17 @@ export function renderQuestion(q) {
     toggleImgBtn.textContent = "Ver imagen";
   }
 
-  if (q.type === "multiple") renderMultiple(q);
-  if (q.type === "code-fill") renderCodeFill(q);
+  if (q.type === "multiple") {
+    renderMultiple(q);
+  }
+
+  if (q.type === "code-fill") {
+    renderCodeFill(q);
+    nextBtn.textContent = "Responder";
+    nextBtn.disabled = false;
+  }
 }
+
 
 function renderMultiple(q) {
   q.options.forEach((option, index) => {
@@ -51,21 +61,19 @@ function renderCodeFill(q) {
 
   const parts = q.template.split("_____");
 
-  const input = document.createElement("input");
-  input.className = "code-fill-input";
-  input.placeholder = "write here";
+  parts.forEach((part, index) => {
+    sentence.appendChild(document.createTextNode(part));
 
-  sentence.append(
-    document.createTextNode(parts[0]),
-    input,
-    document.createTextNode(parts[1] || "")
-  );
+    if (index < parts.length - 1) {
+      const input = document.createElement("input");
+      input.className = "code-fill-input";
+      input.placeholder = "write here";
+      input.dataset.index = index;
+      sentence.appendChild(input);
+    }
+  });
 
-  const btn = document.createElement("button");
-  btn.className = "primary-btn";
-  btn.textContent = "Responder";
-  btn.onclick = () => handleCodeFill(input.value, q);
-
-  optionsEl.append(sentence, btn);
+  optionsEl.appendChild(sentence);
 }
+
 
