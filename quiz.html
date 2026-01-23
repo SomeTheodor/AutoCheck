@@ -4,26 +4,36 @@
   <meta charset="UTF-8" />
   <title>Quiz de Autoevaluación</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/quiz.css">
 </head>
 
 <body>
   <div class="quiz-container">
-    <h2 id="quizTitle"></h2>
-    <p id="progress"></p>
 
-    <h3 id="question"></h3>
+    <header class="quiz-header">
+      <h2 id="quizTitle"></h2>
+      <span id="progress" class="progress-text"></span>
+    </header>
 
-    <img id="questionImage" />
-    <button id="toggleImg" style="display:none;">Ver imagen</button>
+    <section class="question-card">
+      <h3 id="question"></h3>
 
-    <div id="options"></div>
+      <img id="questionImage" />
+      <button id="toggleImg" style="display:none;">👁 Ver imagen</button>
+    </section>
+
+    <section id="options" class="options-list"></section>
+
     <div class="feedback" id="feedback"></div>
 
-    <button id="nextBtn" disabled>Siguiente</button>
+    <button id="nextBtn" disabled>
+      Siguiente →
+    </button>
   </div>
 
-  <script type="module" src="js/quiz.js"></script>
+  <script type="module" src="./js/quiz.js"></script>
 
 </body>
 </html>
+
