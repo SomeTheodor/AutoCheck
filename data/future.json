@@ -25,14 +25,14 @@
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using 'going to':",
-    "template": "Look at those clouds! It _____ rain.",
-    "answer": "is going to",
-    "feedback": "'Going to' is used for predictions based on evidence."
+    "question": "Complete the sentence:",
+    "template": "I think it _____ (be) very hot tomorrow.",
+    "answer": "will be",
+    "feedback": "'Will' is often used for predictions based on opinion."
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using Present Continuous:",
+    "question": "Complete the sentence:",
     "template": "We _____ having dinner with our parents tonight.",
     "answer": "are",
     "feedback": "Present continuous is used for fixed future arrangements."
@@ -47,7 +47,7 @@
       "For actions happening now"
     ],
     "correctIndex": 2,
-    "feedback": "'Going to' is used for prior plans and intentions."
+    "feedback": "'Going to' is used for plans and intentions."
   },
   {
     "type": "multiple",
@@ -63,7 +63,7 @@
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using 'will':",
+    "question": "Complete the sentence:",
     "template": "Don't worry, I _____ help you with your homework.",
     "answer": "will",
     "feedback": "'Will' is commonly used for promises and offers."
@@ -98,5 +98,188 @@
     ],
     "correctIndex": 1,
     "feedback": "'Will' is used for spontaneous offers made at the moment of speaking."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I will call you when I will finish.",
+      "I am calling you when I finish.",
+      "I will call you when I finish.",
+      "I call you when I will finish."
+    ],
+    "correctIndex": 2,
+    "feedback": "In time clauses, we use present simple, not 'will'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "Look at those clouds! It _____ (rain).",
+    "answer": "is going to rain",
+    "feedback": "'Going to' is used for predictions based on evidence."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence expresses a plan decided before speaking?",
+    "options": [
+      "I will study tonight.",
+      "I am studying tonight.",
+      "I am going to study tonight.",
+      "I study tonight."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Going to' is used for prior plans and intentions."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "Don’t worry, I _____ help you with that.",
+    "answer": "will",
+    "feedback": "'Will' is commonly used for spontaneous offers."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a fixed future arrangement?",
+    "options": [
+      "I will visit my grandparents tomorrow.",
+      "I am going to visit my grandparents tomorrow.",
+      "I am visiting my grandparents tomorrow.",
+      "I visit my grandparents tomorrow."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present continuous is used for fixed arrangements."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "She already decided. She _____ (start) a new job next month.",
+    "answer": "is going to start",
+    "feedback": "'Going to' is used for decisions made before speaking."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "I will helping you tomorrow.",
+      "I am going to helping you tomorrow.",
+      "I will help you tomorrow.",
+      "I help you will tomorrow."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Will' is followed by the base form of the verb."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "At 8 p.m. tonight, we _____ (have) dinner with friends.",
+    "answer": "are having",
+    "feedback": "Present continuous is used for arranged future events."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence shows a prediction based on opinion?",
+    "options": [
+      "Look! He is going to fall!",
+      "He will probably win the match.",
+      "He is winning the match.",
+      "He wins the match."
+    ],
+    "correctIndex": 1,
+    "feedback": "'Will' is often used for predictions based on opinion."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "I promise I _____ call you later.",
+    "answer": "will",
+    "feedback": "'Will' is used for promises."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "I am going to buy a new phone.",
+      "I will buy a new phone right now!",
+      "I am buying a new phone tomorrow.",
+      "I going to buy a new phone."
+    ],
+    "correctIndex": 3,
+    "feedback": "'Going to' needs the verb 'to be'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "What _____ you _____ do after class?",
+    "answer": ["are", "going to"],
+    "feedback": "Questions with 'going to' use the verb 'to be'."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the sentence that sounds natural:",
+    "options": [
+      "I will see you at 8? Yes, I will.",
+      "I am seeing you at 8? Yes, I am.",
+      "Are you seeing me at 8? Yes, I am.",
+      "Do you see me at 8? Yes, I do."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present continuous is common for arrangements."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "Be careful! You _____ drop that glass.",
+    "answer": "are going to",
+    "feedback": "'Going to' is used for predictions based on what we see."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence shows a decision made at the moment of speaking?",
+    "options": [
+      "I am meeting Sarah tonight.",
+      "I am going to meet Sarah tonight.",
+      "I will meet Sarah tonight.",
+      "I meet Sarah tonight."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Will' expresses spontaneous decisions."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "They _____ not _____ travel this weekend. They changed their plans.",
+    "answer": ["are", "going to"],
+    "feedback": "Negative form of 'going to' uses 'are not going to'."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "I will to call you later.",
+      "I going to call you later.",
+      "I am going to call you later.",
+      "I am going call you later."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Going to' requires 'am/is/are + going to + base verb'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "At this time tomorrow, I _____ (work) from home.",
+    "answer": "will be working",
+    "feedback": "Future continuous can describe an action in progress at a future time."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence best completes the conversation?\n\n\"I’m cold.\"",
+    "options": [
+      "I am closing the window.",
+      "I am going to close the window.",
+      "I will close the window.",
+      "I close the window."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Will' is used for spontaneous offers and decisions."
   }
 ]

@@ -103,5 +103,195 @@
     ],
     "correctIndex": 2,
     "feedback": "Second conditional uses past simple + would."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a general rule?",
+    "options": [
+      "If it will snow, schools close.",
+      "If it snows, schools close.",
+      "If it snowed, schools would close.",
+      "If it snows, schools will close."
+    ],
+    "correctIndex": 1,
+    "feedback": "Zero conditional is used for general rules and facts."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Zero Conditional:",
+    "template": "If you _____ (not / wear) a seatbelt, you _____ (risk) getting hurt.",
+    "answer": ["don’t wear", "risk"],
+    "feedback": "Zero conditional uses present simple in both clauses."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is a First Conditional?",
+    "options": [
+      "If I were you, I would change jobs.",
+      "If it rains tonight, we stay at home.",
+      "If it rains tonight, we will stay at home.",
+      "If it rained tonight, we would stay at home."
+    ],
+    "correctIndex": 2,
+    "feedback": "First conditional describes real future possibilities."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using First Conditional:",
+    "template": "If they _____ (finish) early, they _____ (go) out for dinner.",
+    "answer": ["finish", "will go"],
+    "feedback": "First conditional uses present simple + will."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence expresses advice?",
+    "options": [
+      "If I am you, I apologize.",
+      "If I were you, I would apologize.",
+      "If I was you, I will apologize.",
+      "If I were you, I will apologize."
+    ],
+    "correctIndex": 1,
+    "feedback": "Second conditional is often used to give advice."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Second Conditional:",
+    "template": "If I _____ (have) more money, I _____ (travel) around the world.",
+    "answer": ["had", "would travel"],
+    "feedback": "Second conditional uses past simple + would."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence mixes Zero and First Conditional incorrectly?",
+    "options": [
+      "If you press this button, the machine starts.",
+      "If it rains, the ground gets wet.",
+      "If I see her, I tell her the news.",
+      "If I see her, I will tell her the news."
+    ],
+    "correctIndex": 2,
+    "feedback": "For real future results, we use First Conditional."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "If he _____ (not / hurry), he _____ (miss) the bus.",
+    "answer": ["doesn’t hurry", "will miss"],
+    "feedback": "First conditional describes a possible future result."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes an unreal present situation?",
+    "options": [
+      "If she studies, she will pass.",
+      "If she studied, she passed.",
+      "If she studied, she would pass.",
+      "If she will study, she passes."
+    ],
+    "correctIndex": 2,
+    "feedback": "Second conditional describes unreal or unlikely situations."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Zero Conditional:",
+    "template": "If children _____ (eat) too much candy, they _____ (get) cavities.",
+    "answer": ["eat", "get"],
+    "feedback": "Zero conditional describes things that are always true."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "If it will be cold, we stay inside.",
+      "If it is cold, we stay inside.",
+      "If it was cold, we stay inside.",
+      "If it is cold, we would stay inside."
+    ],
+    "correctIndex": 1,
+    "feedback": "Zero conditional uses present simple in both clauses."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Second Conditional:",
+    "template": "If she _____ (be) more confident, she _____ (speak) in public.",
+    "answer": ["were", "would speak"],
+    "feedback": "Second conditional often uses 'were' for all subjects."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a real and possible future situation?",
+    "options": [
+      "If I won the lottery, I would buy a house.",
+      "If I win the lottery, I buy a house.",
+      "If I win the lottery, I will buy a house.",
+      "If I will win the lottery, I buy a house."
+    ],
+    "correctIndex": 2,
+    "feedback": "First conditional is used for real future possibilities."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "If we _____ (not / leave) now, we _____ (be) late.",
+    "answer": ["don’t leave", "will be"],
+    "feedback": "First conditional uses present simple + will."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence sounds natural?",
+    "options": [
+      "If I would know the answer, I tell you.",
+      "If I knew the answer, I would tell you.",
+      "If I know the answer, I would tell you.",
+      "If I knew the answer, I tell you."
+    ],
+    "correctIndex": 1,
+    "feedback": "Second conditional structure is past simple + would."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence using Zero Conditional:",
+    "template": "If you _____ (mix) red and blue, you _____ (get) purple.",
+    "answer": ["mix", "get"],
+    "feedback": "Zero conditional is used for scientific or general truths."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "If I finish early, I will call you.",
+      "If I finished early, I would call you.",
+      "If I will finish early, I call you.",
+      "If I finish early, I might call you."
+    ],
+    "correctIndex": 2,
+    "feedback": "We do not use 'will' in the if-clause."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "If he _____ (be) the manager, he _____ (change) the schedule.",
+    "answer": ["were", "would change"],
+    "feedback": "Second conditional describes imaginary present situations."
+  },
+  {
+    "type": "multiple",
+    "question": "What is the main difference between First and Second Conditional?",
+    "options": [
+      "First is about the past; second about the future.",
+      "First is real and possible; second is unreal or unlikely.",
+      "First uses 'would'; second uses 'will'.",
+      "There is no real difference."
+    ],
+    "correctIndex": 1,
+    "feedback": "First conditional is real; second conditional is hypothetical."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "If you _____ (heat) ice, it _____ (melt).",
+    "answer": ["heat", "melts"],
+    "feedback": "Zero conditional uses present simple in both clauses."
   }
 ]

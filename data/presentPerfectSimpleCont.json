@@ -98,5 +98,196 @@
     ],
     "correctIndex": 2,
     "feedback": "Present perfect continuous is often used with 'for' to emphasize duration."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence emphasizes the result of an action?",
+    "options": [
+      "She has been cleaning the house.",
+      "She cleaned the house.",
+      "She has cleaned the house.",
+      "She was cleaning the house."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect simple focuses on the result."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence emphasizes how long an action has continued?",
+    "options": [
+      "I have finished the report.",
+      "I finished the report.",
+      "I have been working on the report all morning.",
+      "I was working on the report."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect continuous emphasizes duration."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "She _____ (study) English for three years, so her level has improved a lot.",
+    "answer": "has been studying",
+    "feedback": "Present perfect continuous emphasizes duration."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "They _____ (not / finish) the project yet, but they are very close.",
+    "answer": "have not finished",
+    "feedback": "Present perfect simple is used with 'yet' for unfinished actions."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "I have been seeing her yesterday.",
+      "I have seen her yesterday.",
+      "I saw her yesterday.",
+      "I have been seeing her since yesterday."
+    ],
+    "correctIndex": 2,
+    "feedback": "Past simple is used with finished time expressions like 'yesterday'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "He _____ (work) at this company since he graduated from university.",
+    "answer": "has worked",
+    "feedback": "Present perfect simple is often used with 'since' for states."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence sounds natural?",
+    "options": [
+      "I have been knowing her since 2015.",
+      "I have known her since 2015.",
+      "I know her since 2015.",
+      "I am knowing her since 2015."
+    ],
+    "correctIndex": 1,
+    "feedback": "State verbs are used in present perfect simple, not continuous."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "It _____ (rain) all morning, and the streets are still wet.",
+    "answer": "has been raining",
+    "feedback": "Present perfect continuous shows a recent activity with visible results."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence focuses on repeated actions?",
+    "options": [
+      "She has been visiting her grandparents.",
+      "She visited her grandparents.",
+      "She has visited her grandparents several times.",
+      "She was visiting her grandparents."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect simple is used for repeated actions."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "We _____ (live) in this city for ten years, but now we want to move.",
+    "answer": "have lived",
+    "feedback": "Present perfect simple is common with long-term situations."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "I have just finished my homework.",
+      "She has already left the office.",
+      "They have been finished the report.",
+      "We have never tried sushi."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect continuous does not use past participles."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "How long _____ you _____ (wait) for the bus?",
+    "answer": ["have", "been waiting"],
+    "feedback": "Questions in present perfect continuous use 'have/has been + verb-ing'."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I have been watched too much TV lately.",
+      "I have watched too much TV lately.",
+      "I watched too much TV lately.",
+      "I was watching too much TV lately."
+    ],
+    "correctIndex": 2,
+    "feedback": "'Lately' is often used with present perfect simple."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "She _____ (not / eat) anything since breakfast.",
+    "answer": "has not eaten",
+    "feedback": "Present perfect simple is used with 'since' for completed actions."
+  },
+  {
+    "type": "multiple",
+    "question": "What is the main difference between these sentences?\n\n\"I have cleaned the kitchen.\" / \"I have been cleaning the kitchen.\"",
+    "options": [
+      "There is no difference.",
+      "The first focuses on the result; the second on the duration.",
+      "The first is incorrect.",
+      "The second is in the past simple."
+    ],
+    "correctIndex": 1,
+    "feedback": "Simple = result; continuous = duration or activity."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "They _____ (travel) a lot recently, so they are very tired.",
+    "answer": "have been traveling",
+    "feedback": "Present perfect continuous is used for recent repeated actions."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "I have lived here since five years.",
+      "I live here for five years.",
+      "I have been living here for five years.",
+      "I am living here since five years."
+    ],
+    "correctIndex": 2,
+    "feedback": "Use 'for' with a period of time and present perfect continuous for duration."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "She _____ (already / finish) the report, so she can leave early.",
+    "answer": "has already finished",
+    "feedback": "Present perfect simple is used with 'already' to show completion."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence focuses on an unfinished action?",
+    "options": [
+      "I have written three emails.",
+      "I wrote three emails.",
+      "I have been writing emails all morning.",
+      "I was writing emails."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present perfect continuous emphasizes an unfinished or ongoing activity."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "We _____ (not / see) him for weeks, and we are starting to worry.",
+    "answer": "have not seen",
+    "feedback": "Present perfect simple is used for actions that have not happened up to now."
   }
+
 ]

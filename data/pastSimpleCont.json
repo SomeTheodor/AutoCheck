@@ -25,17 +25,17 @@
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using Past Simple:",
-    "template": "She _____ (open) the door and left the house.",
-    "answer": "opened",
-    "feedback": "Past simple is used for completed actions in the past."
+    "question": "Complete the sentence:",
+    "template": "He _____ (fall) while he _____ (run) in the park.",
+    "answer": ["fell", "was running"],
+    "feedback": "Past simple for the sudden action; past continuous for the action in progress."
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using Past Continuous:",
-    "template": "They _____ playing football when it started to rain.",
-    "answer": "were",
-    "feedback": "Past continuous uses 'was / were' + verb ending in -ing."
+    "question": "Complete the sentence:",
+    "template": "We _____ (not / listen) when the teacher _____ (ask) the question.",
+    "answer": ["weren’t listening", "asked"],
+    "feedback": "Negative past continuous uses 'was/were not + verb-ing'."
   },
   {
     "type": "multiple",
@@ -63,10 +63,10 @@
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using Past Simple:",
-    "template": "We _____ (watch) the movie last night.",
-    "answer": "watched",
-    "feedback": "Past simple is used with finished time expressions like 'last night'."
+    "question": "Complete the sentence:",
+    "template": "She _____ (sleep) when the alarm _____ (go) off.",
+    "answer": ["was sleeping", "went"],
+    "feedback": "Past continuous for the background action; past simple for the interruption."
   },
   {
     "type": "multiple",
@@ -82,10 +82,10 @@
   },
   {
     "type": "code-fill",
-    "question": "Complete the sentence using Past Continuous:",
-    "template": "He _____ sleeping when the alarm went off.",
-    "answer": "was",
-    "feedback": "With 'he', past continuous uses 'was'."
+    "question": "Complete the sentence:",
+    "template": "The students _____ (take) notes while the teacher _____ (explain) the lesson.",
+    "answer": ["were taking", "was explaining"],
+    "feedback": "Two actions in progress at the same time use past continuous."
   },
   {
     "type": "multiple",
@@ -98,5 +98,215 @@
     ],
     "correctIndex": 0,
     "feedback": "Past continuous is used for the background action, past simple for the event."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "She was listening music when I arrived.",
+      "She listened music when I arrived.",
+      "She was listening to music when I arrived.",
+      "She listened to music when I was arriving."
+    ],
+    "correctIndex": 2,
+    "feedback": "Past continuous uses 'was/were + verb -ing' and 'listen' needs 'to'."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a short action interrupting a longer one?",
+    "options": [
+      "I was sleeping when the phone rang.",
+      "I slept when the phone was ringing.",
+      "I was sleeping while the phone rang.",
+      "I slept while the phone rang."
+    ],
+    "correctIndex": 0,
+    "feedback": "Past continuous is used for the longer action; past simple for the interruption."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "While I _____ (walk) to work, I _____ (meet) an old friend.",
+    "answer": ["was walking", "met"],
+    "feedback": "Past continuous describes the situation; past simple describes what happened."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "We were talking when he arrived.",
+      "She was driving when it started to snow.",
+      "They were play football at 5 p.m.",
+      "I was studying all afternoon."
+    ],
+    "correctIndex": 2,
+    "feedback": "Past continuous needs 'was/were + verb-ing'."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the sentence that uses Past Continuous correctly:",
+    "options": [
+      "I was cook dinner at 8.",
+      "I cooked dinner at 8.",
+      "I was cooking dinner at 8.",
+      "I cooking dinner at 8."
+    ],
+    "correctIndex": 2,
+    "feedback": "Past continuous is 'was/were + verb-ing'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "He _____ (drive) home when he _____ (see) the accident.",
+    "answer": ["was driving", "saw"],
+    "feedback": "Past continuous for the longer action; past simple for the sudden event."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a scene in the past?",
+    "options": [
+      "People talked loudly and music played.",
+      "People were talking loudly and music was playing.",
+      "People talked loudly while music was playing.",
+      "People were talk loudly and music was playing."
+    ],
+    "correctIndex": 1,
+    "feedback": "Past continuous is often used to set the scene in a story."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct option:",
+    "options": [
+      "When I was walking, I was falling.",
+      "When I walked, I was falling.",
+      "When I was walking, I fell.",
+      "When I walked, I fell."
+    ],
+    "correctIndex": 2,
+    "feedback": "Past continuous for the background action; past simple for the sudden event."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "At 8 p.m. yesterday, we _____ (have) dinner.",
+    "answer": "were having",
+    "feedback": "Past continuous is used for actions in progress at a specific time in the past."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "She was wearing a red dress at the party.",
+      "She wore a red dress when I was seeing her.",
+      "She was wear a red dress at the party.",
+      "She wearing a red dress at the party."
+    ],
+    "correctIndex": 0,
+    "feedback": "Past continuous describes what someone was wearing at a moment in the past."
+  },
+  {
+    "type": "multiple",
+    "question": "What do we usually use Past Simple for?",
+    "options": [
+      "Actions in progress in the past",
+      "Completed actions at a specific time in the past",
+      "Future plans",
+      "Actions happening now"
+    ],
+    "correctIndex": 1,
+    "feedback": "Past simple describes completed actions in the past."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "They _____ (study) when the teacher _____ (come) into the classroom.",
+    "answer": ["were studying", "came"],
+    "feedback": "Past continuous for the background action; past simple for the event."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence sounds natural?",
+    "options": [
+      "I was knowing the answer.",
+      "I knew the answer.",
+      "I was know the answer.",
+      "I knowing the answer."
+    ],
+    "correctIndex": 1,
+    "feedback": "State verbs like 'know' are not usually used in continuous forms."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "While they were eating, the lights went out.",
+      "While they ate, the lights were going out.",
+      "While they were eat, the lights went out.",
+      "While they eating, the lights went out."
+    ],
+    "correctIndex": 0,
+    "feedback": "Past continuous with 'while' and past simple for the interrupting action."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "While she _____ (cook), the children _____ (play) outside.",
+    "answer": ["was cooking", "were playing"],
+    "feedback": "Two actions happening at the same time use past continuous."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes two actions happening at the same time?",
+    "options": [
+      "He was cooking while she was cleaning.",
+      "He cooked while she cleaned.",
+      "He was cooking when she cleaned.",
+      "He cooked when she was cleaning."
+    ],
+    "correctIndex": 0,
+    "feedback": "Two simultaneous actions often use past continuous."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "I was reading when you called.",
+      "They were sleeping at midnight.",
+      "She was studying when the teacher came in.",
+      "He was understand the question."
+    ],
+    "correctIndex": 3,
+    "feedback": "State verbs like 'understand' are not normally used in the continuous form."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "I _____ (watch) TV when the phone _____ (ring).",
+    "answer": ["was watching", "rang"],
+    "feedback": "Past continuous describes the action in progress; past simple describes the interruption."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence best describes a background action?",
+    "options": [
+      "I broke my leg.",
+      "I was breaking my leg.",
+      "I was walking down the street.",
+      "I walked down the street."
+    ],
+    "correctIndex": 2,
+    "feedback": "Past continuous often describes background actions in stories."
+  },
+  {
+    "type": "multiple",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "They were watching TV when the doorbell rang.",
+      "They watched TV when the doorbell was ringing.",
+      "They were watch TV when the doorbell rang.",
+      "They watching TV when the doorbell rang."
+    ],
+    "correctIndex": 0,
+    "feedback": "Past continuous for the longer action; past simple for the interrupting event."
   }
 ]

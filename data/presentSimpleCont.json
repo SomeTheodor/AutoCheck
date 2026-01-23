@@ -27,7 +27,7 @@
     "type": "code-fill",
     "question": "Complete the sentence:",
     "template": "He usually _____ coffee, but today he _____ tea.",
-    "answer": ["drinks", "is drinking"],
+    "answer": ["drinks", "is drinking","drinks", "is drinking"],
     "feedback": "Present simple is used for habits; present continuous for temporary actions."
   },
   {
@@ -57,7 +57,7 @@
   {
     "type": "code-fill",
     "question": "Complete the sentence:",
-    "template": "We usually _____ lunch at home, but this week we _____ out.",
+    "template": "We usually _____ (have) lunch at home, but this week we _____ (eat) out.",
     "answer": ["have", "are eating"],
     "feedback": "Present simple shows routines; present continuous shows temporary changes."
   },
@@ -88,7 +88,7 @@
   {
     "type": "code-fill",
     "question": "Complete the sentence:",
-    "template": "At the moment, the children _____ outside.",
+    "template": "At the moment, the children _____ (play) outside.",
     "answer": "are playing",
     "feedback": "Present continuous is used for actions happening now."
   },
@@ -107,7 +107,7 @@
   {
     "type": "code-fill",
     "question": "Complete the sentence:",
-    "template": "He usually _____ from home, but today he _____ to the office.",
+    "template": "He usually _____ (work) from home, but today he _____ (go) to the office.",
     "answer": ["works", "is going"],
     "feedback": "Present simple describes routines; present continuous describes temporary actions."
   },
@@ -134,5 +134,184 @@
     ],
     "correctIndex": 1,
     "feedback": "Present continuous can suggest something temporary."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a daily routine?",
+    "options": [
+      "I am getting up at 6 today.",
+      "I get up at 6 every day.",
+      "I am get up at 6 every day.",
+      "I getting up at 6 every day."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present simple is used for routines and habits."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "They watch TV now.",
+      "They are watching TV now.",
+      "They are watch TV now.",
+      "They watching TV now."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present continuous is used for actions happening now."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "She usually _____ (take) the bus, but today she _____ (walk) to work.",
+    "answer": ["takes", "is walking"],
+    "feedback": "Present simple is for habits; present continuous for temporary actions."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "I am reading an interesting book.",
+      "He works as an engineer.",
+      "She is having two brothers.",
+      "They are studying right now."
+    ],
+    "correctIndex": 2,
+    "feedback": "State verbs like 'have' (possession) are not usually used in the continuous form."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence talks about something happening around now, but not necessarily at this moment?",
+    "options": [
+      "I work in a bank.",
+      "I am working on a new project these days.",
+      "I work on a new project every day.",
+      "I am work on a new project."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present continuous can describe actions happening around the present time."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "Look! It _____ (rain). It usually _____ (rain) a lot in this city.",
+    "answer": ["is raining", "rains"],
+    "feedback": "Present continuous for what is happening now; present simple for general facts."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence sounds natural?",
+    "options": [
+      "I am thinking you are right.",
+      "I think you are right.",
+      "I am think you are right.",
+      "I thinking you are right."
+    ],
+    "correctIndex": 1,
+    "feedback": "The verb 'think' (opinion) is usually used in the present simple."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a temporary job?",
+    "options": [
+      "He works in a café.",
+      "He is working in a café this summer.",
+      "He work in a café this summer.",
+      "He is work in a café."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present continuous often describes temporary situations."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "My parents usually _____ (travel) in July, but this year they _____ (stay) at home.",
+    "answer": ["travel", "are staying"],
+    "feedback": "Present simple for usual behavior; present continuous for temporary changes."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "She always is complaining.",
+      "She is always complaining.",
+      "She always complaining.",
+      "She complaining always."
+    ],
+    "correctIndex": 1,
+    "feedback": "With present continuous, 'always' can describe annoying habits."
+  },
+  {
+    "type": "multiple",
+    "question": "What does this sentence suggest?\n\n“He is working late this week.”",
+    "options": [
+      "It is his permanent schedule.",
+      "It is a temporary situation.",
+      "It happened in the past.",
+      "The sentence is incorrect."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present continuous often suggests something temporary."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "She _____ (not / usually / eat) breakfast, but today she _____ (have) some fruit.",
+    "answer": ["doesn’t usually eat", "is having"],
+    "feedback": "Present simple for habits; present continuous for actions happening now."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is NOT correct?",
+    "options": [
+      "I understand the problem.",
+      "She is understanding the problem.",
+      "They live near the beach.",
+      "He is waiting for the bus."
+    ],
+    "correctIndex": 1,
+    "feedback": "The verb 'understand' is a state verb and is not usually used in the continuous form."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence describes a general truth?",
+    "options": [
+      "Water is boiling at 100°C.",
+      "Water is boiling right now.",
+      "Water boils at 100°C.",
+      "Water boil at 100°C."
+    ],
+    "correctIndex": 2,
+    "feedback": "Present simple is used for general truths and scientific facts."
+  },
+  {
+    "type": "code-fill",
+    "question": "Complete the sentence:",
+    "template": "At the moment, I _____ (try) to learn English, but I usually _____ (study) Spanish.",
+    "answer": ["am trying", "study"],
+    "feedback": "Present continuous for temporary focus; present simple for usual activities."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence best describes a repeated action?",
+    "options": [
+      "She is going to the gym now.",
+      "She goes to the gym every Monday.",
+      "She is go to the gym every Monday.",
+      "She going to the gym every Monday."
+    ],
+    "correctIndex": 1,
+    "feedback": "Present simple is used for repeated actions."
+  },
+  {
+    "type": "multiple",
+    "question": "Which sentence is correct?",
+    "options": [
+      "They are owning a big house.",
+      "They own a big house.",
+      "They are own a big house.",
+      "They owning a big house."
+    ],
+    "correctIndex": 1,
+    "feedback": "The verb 'own' is a state verb and is usually used in the present simple."
   }
 ]
