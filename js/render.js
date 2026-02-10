@@ -59,17 +59,28 @@ function renderCodeFill(q) {
   const sentence = document.createElement("div");
   sentence.className = "code-fill-sentence";
 
-  const parts = q.template.split("_____");
+  const parts = q.template.split(/(_+)/);
 
   parts.forEach((part, index) => {
-    sentence.appendChild(document.createTextNode(part));
-
-    if (index < parts.length - 1) {
+    if (/^_+$/.test(part)) {
       const input = document.createElement("input");
       input.className = "code-fill-input";
       input.placeholder = "write here";
       input.dataset.index = index;
+
+      // Tamaño dinámico basado en cantidad de underscores
+      const base = 7; // px por underscore
+      const width = part.length * base;
+
+      input.style.width = width + "px";
+
+      // Responsividad
+      input.style.minWidth = "120px";  
+      input.style.maxWidth = "100%";
+
       sentence.appendChild(input);
+    } else {
+      sentence.appendChild(document.createTextNode(part));
     }
   });
 
