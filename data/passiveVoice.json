@@ -1,0 +1,177 @@
+[{
+  "type": "code-fill",
+  "question": "Active: The manager approved the request:",
+  "template": "Passive:  _____________________________________________________________________________",
+  "answer": ["The request was approved by the manager"],
+  "feedback": "In passive voice, the object becomes the subject and you use 'was/were + past participle'."
+},
+{
+  "type": "code-fill",
+  "question": "Passive: The emails were sent by the assistant:",
+  "template": "Active:  ______________________________________________________________________________",
+  "answer": ["The assistant sent the emails"],
+  "feedback": "In active voice, the subject performs the action directly."
+},
+{
+  "type": "code-fill",
+  "question": "Active: They are building a new school:",
+  "template": "Passive: ______________________________________________________________________________",
+  "answer": ["A new school is being built"],
+  "feedback": "For continuous passive, use 'is/are being + past participle'."
+},
+{
+  "type": "code-fill",
+  "question": "Passive: The project will be completed by the team:",
+  "template": "Active:  _______________________________________________________________________________",
+  "answer": ["The team will complete the project"],
+  "feedback": "Future passive uses 'will be + past participle'."
+},
+{
+  "type": "code-fill",
+  "question": "Active: Someone has repaired the computer:",
+  "template": "Passive:  ______________________________________________________________________________",
+  "answer": ["The computer has been repaired"],
+  "feedback": "Present perfect passive uses 'has/have been + past participle'."
+},
+  {
+    "type": "code-fill",
+    "question": "Active: The chef cooked the meal:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["The meal was cooked by the chef"],
+    "feedback": "Past simple passive uses 'was/were + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The report is written by the analyst:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["The analyst writes the report"],
+    "feedback": "Present simple active uses the base form (adds 's' for he/she/it)."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: The students will present the project:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["The project will be presented by the students"],
+    "feedback": "Future passive uses 'will be + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The work is being reviewed by the supervisor:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["The supervisor is reviewing the work"],
+    "feedback": "Present continuous active uses 'am/is/are + verb-ing'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: They have delivered the package:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["The package has been delivered"],
+    "feedback": "Present perfect passive uses 'has/have been + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The instructions were given by the teacher:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["The teacher gave the instructions"],
+    "feedback": "Past simple active uses the second form of the verb."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: The company is launching a new product:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["A new product is being launched"],
+    "feedback": "Present continuous passive uses 'is/are being + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The letter will be sent by the office:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["The office will send the letter"],
+    "feedback": "Future active uses 'will + base verb'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: People speak English all over the world:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["English is spoken all over the world"],
+    "feedback": "Present simple passive uses 'is/are + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The room has been cleaned by the staff:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["The staff has cleaned the room"],
+    "feedback": "Present perfect active uses 'has/have + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: They clean the offices every morning:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["The offices are cleaned every morning"],
+    "feedback": "Present simple passive uses 'is/are + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The invitations were sent by Sarah:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["Sarah sent the invitations"],
+    "feedback": "Past simple active uses the second form of the verb."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: The company is fixing the network problem:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["The network problem is being fixed"],
+    "feedback": "Present continuous passive uses 'is/are being + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The new rules will be announced tomorrow:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["They will announce the new rules tomorrow"],
+    "feedback": "Future simple active uses 'will + base form'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: Someone forgot the keys in the office:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["The keys were forgotten in the office"],
+    "feedback": "In passive, 'someone' is often omitted when the agent is unknown."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The message is being written by David:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["David is writing the message"],
+    "feedback": "Present continuous active uses 'am/is/are + verb-ing'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: They have already finished the report:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["The report has already been finished"],
+    "feedback": "Present perfect passive uses 'has/have been + past participle'."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The windows were broken during the storm:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["The storm broke the windows"],
+    "feedback": "Past simple active expresses a completed action."
+  },
+  {
+    "type": "code-fill",
+    "question": "Active: They are organizing a workshop next week:",
+    "template": "Passive:  _______________________________________________________________________________",
+    "answer": ["A workshop is being organized next week"],
+    "feedback": "Use 'is being + past participle' for actions happening around now."
+  },
+  {
+    "type": "code-fill",
+    "question": "Passive: The problem has been solved by the technicians:",
+    "template": "Active:  ________________________________________________________________________________",
+    "answer": ["The technicians have solved the problem"],
+    "feedback": "Present perfect active uses 'have/has + past participle'."
+  }
+
+]
