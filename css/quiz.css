@@ -67,14 +67,14 @@ img {
 }
 
 .code-fill-input {
-  width: 120px;
-  padding: 6px 8px;
-  margin: 0 6px;
-  font-size: 16px;
+  padding: 8px 10px;
   border: 2px solid #ccc;
   border-radius: 6px;
-  text-align: center;
+  font-size: 16px;
+  box-sizing: border-box;
 }
+
+
 
 .code-fill-input:focus {
   outline: none;
